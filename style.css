@@ -1,0 +1,195 @@
+.encabezado {
+    overflow: hidden;
+    position: fixed;
+    width: 98%;
+    height: 100px; 
+    background-image: url(image/microfono.jpg);
+    padding: 30px;
+    margin-bottom: 20px;
+    filter: brightness(150%);
+    background-size: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center; 
+    top: 0;
+}
+body {
+    background-image: url(image/texture.jpg);
+    padding-top: 150px;
+
+    
+}
+.logo_cabecera {
+    padding: 0;
+    border-radius: 50%; 
+    float: left;   
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 50px;
+    list-style: none;
+    padding: 10px;
+    float: right; 
+/* para crear efecto transparencia*/
+    background: linear-gradient(90deg,
+    rgba(36, 34, 34, 0) 0%,
+    rgba(22, 22, 22, 0.2)25%,
+    rgba(24, 23, 23, 0.2)758%,
+    rgba(15, 15, 15, 0)100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    inset: 0 0 1px rgba(36, 34, 34, 0.8);
+}
+.menu li a {
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+        display: inline;
+        
+}
+.menu li {
+        font-family: bebasneueregular, Arial, Helvetica, sans-serif;
+        font-size: 25pt;
+        display: inline-block;
+        text-align: center;     
+        }
+   /* este código hace que el color cambie al pasar el puntero*/     
+.menu li a:hover {
+    background: #f46106;
+}   
+/* con esto se crea una nueva font-family*/
+@font-face {
+    font-family: Bebasneueregular;
+    src: url('webfonts/BebasNeue-Regular.ttf'); 
+}
+.contenedor {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+}
+.articulo .video {
+    display: inline;
+     padding: 25px;
+    margin: auto;
+}
+
+.articulo {
+    color: black;
+    font-family: 'bebasneueregular', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    top: 0;
+    
+}
+ p {
+    font-family: 'bebasneueregular', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+.formulario .form .form-header .form-title {
+    font-weight: normal;
+    color: #f46106;
+    text-align: center;
+    padding: 14px, 0;
+}
+.formulario .form .form-header .form-title span {
+    color: black;
+}
+.formulario .form {
+    background: rgba(0, 0, 0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px, 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px; 
+}
+.formulario .form .form-label {
+    color: #f46106;
+    display: block;
+    font-size: 16px;
+    font-family: 'bebasneueregular';
+    position: relative;
+}
+label {
+    color: #f46106;
+    margin-left: 5px; 
+}
+.formulario .form .form-input, .form-textarea {
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #f46106;
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #f46106;
+    font-family: 'bebasneueregular';    
+}
+.formulario .form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.formulario .form .btn-submit {
+    width: 100%;
+    font-family: 'bebasneueregular';
+    outline: none;
+    background: #f46106;
+    font-size: 50px;
+    border: none;
+    color: #fff;
+    padding: 45px, 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.formulario .form .btn-submit:hover {
+    background: #d43215;
+}
+.pie {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background: #000000;
+    color: #f46106;
+    font-family: 'bebasneueregular', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+.social {
+    display: flex;
+    padding: 40px;
+    font-family: 'bebasneueregular', Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+footer .social a {
+    color: #f46106;
+    transition: all .10s ease;
+    
+}
+footer .social .facebook:hover{
+    transform: scale(1.8, 1.8);
+    color: #26547C;
+}
+footer .social .instagram:hover{
+    transform: scale(1.8, 1.8);
+    color: #5C0029;
+}
+footer .social .youtube:hover{
+    transform: scale(1.8, 1.8);
+    color: red;
+}
